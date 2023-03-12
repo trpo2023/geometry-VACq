@@ -104,7 +104,7 @@ int main()
             if (x[0] == '.') {
                 for (int k = 0; k < strlen(circle) + 1; k++) printf(" ");
                 printf("^\n");
-                printf("Error at collum %d: expected '<double>'\n", strlen(circle) + 2);
+                printf("Error at collum %ld: expected '<double>'\n", (strlen(circle)) + 2);
                 return 3;
             }
             if (x[j] == '.')
@@ -144,7 +144,7 @@ int main()
             if (y[0] == '.') {
                 for (int k = 0; k < strlen(circle) + indexX + 2;k++) printf(" ");
                 printf("^\n");
-                printf("Error at collum %d: expected '<double>'\n", strlen(circle) + indexX + 3);
+                printf("Error at collum %ld: expected '<double>'\n", strlen(circle) + indexX + 3);
                 return 3;
             }
             if (y[j] == '.')
@@ -179,7 +179,7 @@ int main()
             if (radius[0] == '.') {
                 for (int k = 0; k < strlen(circle) + indexX + indexY + 4; k++)printf(" ");
                 printf("^\n");
-                printf("Error at collum %d: expected '<double>'\n", strlen(circle) + indexX + indexY + 5);
+                printf("Error at collum %ld: expected '<double>'\n", strlen(circle) + indexX + indexY + 5);
                 return 3;
             }
             if (radius[j] == '.')
