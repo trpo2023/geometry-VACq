@@ -11,8 +11,6 @@ int main()
     char input[50];
     char x[20], y[20], radius[20];
     char circle[] = "circle";
-    char space[] = " ";
-    char empty[] = "";
     int i, index;
     double x_num, y_num, radius_num;
 
